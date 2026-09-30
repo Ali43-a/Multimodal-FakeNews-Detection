@@ -1,0 +1,7 @@
+{
+  "n": 26000,
+  "chi_square": 5442.170120555753,
+  "p_value": 0.0,
+  "cramers_v": 0.4575087271364236,
+  "interpretation": "Large dependence means complete-case filtering changes the target population. Macro-F1 does not remove this selection bias."
+}

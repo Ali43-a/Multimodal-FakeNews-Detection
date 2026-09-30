@@ -1,0 +1,29 @@
+{
+  "purpose": "final unseen multimodal evaluation",
+  "candidate_count": 10000,
+  "target_final_count": 5000,
+  "usable_before_final_selection": 6945,
+  "final_count": 5000,
+  "final_label_counts": {
+    "0": 2201,
+    "1": 2799
+  },
+  "ordered_id_sha256": "2ebe8ee8bf208f291f65c67c069e38a2922ec89af80387d94a865417a914494a",
+  "known_placeholder_hash": "faa24ec881e6040655c187a681d6dc496eb8aa41e1bd0652a180b3a40b457187",
+  "cleaning": {
+    "require_readable_image": true,
+    "exclude_known_placeholder": true,
+    "exclude_development_image_hashes": true,
+    "deduplicate_exact_text_within_candidates": true,
+    "deduplicate_exact_image_hash_within_candidates": true
+  },
+  "fusion_model_locked": {
+    "text_model": "roberta-base fine-tuned checkpoint",
+    "image_model": "resnet50 fine-tuned checkpoint",
+    "alpha_text": 0.45,
+    "alpha_image": 0.55,
+    "decision_threshold": 0.5
+  },
+  "model_predictions_used_for_selection": false,
+  "model_metrics_used_for_selection": false
+}

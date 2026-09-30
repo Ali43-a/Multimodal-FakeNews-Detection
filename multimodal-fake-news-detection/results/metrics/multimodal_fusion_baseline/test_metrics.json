@@ -1,0 +1,30 @@
+{
+  "accuracy": 0.8188295165394402,
+  "precision": 0.8345259391771019,
+  "recall": 0.845108695652174,
+  "f1": 0.8397839783978398,
+  "f1_macro": 0.8156765325244468,
+  "roc_auc": 0.8908719638438621,
+  "pr_auc": 0.8978186877240308,
+  "loss": 1.2558382451534271,
+  "confusion_matrix": [
+    [
+      676,
+      185
+    ],
+    [
+      171,
+      933
+    ]
+  ],
+  "best_validation_macro_f1": 0.8228064609134222,
+  "model": "frozen_feature_concat_mlp",
+  "text_encoder": "fine_tuned_roberta_base",
+  "image_encoder": "fine_tuned_resnet50",
+  "text_dimension": 768,
+  "image_dimension": 2048,
+  "fusion_dimension": 2816,
+  "seed": 42,
+  "batch_size": 256,
+  "learning_rate": 0.001
+}

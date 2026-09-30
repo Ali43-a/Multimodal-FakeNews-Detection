@@ -1,0 +1,27 @@
+{
+  "source_only_final_holdout": {
+    "n": 5000,
+    "threshold": 0.5,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "macro_f1": 1.0,
+    "roc_auc": 0.9999999999999999,
+    "pr_auc": 1.0,
+    "brier": 8.307496693354844e-06,
+    "log_loss": 0.0012454003788193238,
+    "confusion_matrix": [
+      [
+        2201,
+        0
+      ],
+      [
+        0,
+        2799
+      ]
+    ]
+  },
+  "training_source_label_cramers_v": 1.0,
+  "chi_square_p": 0.0
+}

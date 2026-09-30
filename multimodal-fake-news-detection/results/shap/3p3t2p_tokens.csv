@@ -1,0 +1,6 @@
+id,comparison_group,label,predicted_class,token,shap_value,absolute_shap
+3p3t2p,roberta_only_correct,1,1,,-4.6566128730773926e-08,4.6566128730773926e-08
+3p3t2p,roberta_only_correct,1,1,y,0.0425451104529202,0.0425451104529202
+3p3t2p,roberta_only_correct,1,1,ose,0.16249106219038367,0.16249106219038367
+3p3t2p,roberta_only_correct,1,1,mite,0.2950857076793909,0.2950857076793909
+3p3t2p,roberta_only_correct,1,1,,2.9802322387695312e-08,2.9802322387695312e-08

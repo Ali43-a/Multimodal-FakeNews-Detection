@@ -1,0 +1,29 @@
+{
+  "selection_metric": "mean validation macro F1",
+  "seeds": [
+    42,
+    52,
+    62
+  ],
+  "test_evaluated": false,
+  "best_config": {
+    "name": "two_layer_128_64",
+    "hidden": [
+      128,
+      64
+    ],
+    "dropout": [
+      0.4,
+      0.3
+    ],
+    "lr": 0.0003,
+    "weight_decay": 0.001
+  },
+  "validation_summary": {
+    "config": "two_layer_128_64",
+    "mean_macro_f1": 0.8261477815794098,
+    "std_macro_f1": 0.000563875784605113,
+    "mean_accuracy": 0.8282364933741081,
+    "mean_best_epoch": 1.0
+  }
+}

@@ -1,0 +1,63 @@
+dataset:
+  name: fakeddit
+  version: "2.0"
+  task: binary_classification
+  source_label_column: 2_way_label
+
+development_subset:
+  seed: 42
+
+  original:
+    train: 20000
+    validation: 3000
+    test: 3000
+
+  cleaned_multimodal:
+    train: 13129
+    validation: 1962
+    test: 1965
+
+paths:
+  train: data/processed/fakeddit/development_clean/train.parquet
+  validation: data/processed/fakeddit/development_clean/validation.parquet
+  test: data/processed/fakeddit/development_clean/test.parquet
+
+modalities:
+  text:
+    column: text
+    source: clean_title
+
+  image:
+    column: image_path
+    root: data/raw/fakeddit/development_images
+
+cleaning:
+  require_existing_image: true
+  require_valid_image: true
+
+  excluded_placeholder:
+    sha256: faa24ec881e6040655c187a681d6dc496eb8aa41e1bd0652a180b3a40b457187
+    source_subreddit: psbattle_artwork
+    reason: repeated regional-unavailable placeholder image
+
+splits:
+  preserve_official_fakeddit_boundaries: true
+  identical_sample_ids_across_modalities: true
+
+text_processing:
+  tokenizer: roberta-base
+  max_length: 64
+
+evaluation:
+  main_metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+    - roc_auc
+    - pr_auc
+
+notes:
+  class_distribution_shift_after_image_filtering: true
+  placeholder_images_are_class_conditional: true
+  do_not_rebalance_main_benchmark: true

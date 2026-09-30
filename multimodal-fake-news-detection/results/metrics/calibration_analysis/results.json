@@ -1,0 +1,30 @@
+{
+  "n_bins": 10,
+  "test_samples": 1965,
+  "models": [
+    {
+      "model": "roberta",
+      "brier_score": 0.13464374597642098,
+      "log_loss": 0.45027878363505347,
+      "ece": 0.09123317922344647,
+      "mean_probability_class_1": 0.5800775018357138,
+      "mean_confidence": 0.9092449178525813
+    },
+    {
+      "model": "resnet",
+      "brier_score": 0.18436801927957136,
+      "log_loss": 0.5774257357872338,
+      "ece": 0.07355891015154346,
+      "mean_probability_class_1": 0.5812597920367518,
+      "mean_confidence": 0.8044804074479812
+    },
+    {
+      "model": "late_fusion",
+      "brier_score": 0.12292578556052197,
+      "log_loss": 0.39409613742353633,
+      "ece": 0.05461759751079646,
+      "mean_probability_class_1": 0.5807277614742745,
+      "mean_confidence": 0.7887157733962129
+    }
+  ]
+}

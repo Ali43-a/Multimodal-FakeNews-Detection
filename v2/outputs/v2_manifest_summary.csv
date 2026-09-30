@@ -1,0 +1,7 @@
+v2_split,n,class_1_rate,manifest
+test,2739,0.5469149324571011,source_disjoint
+train,10524,0.5291714177118966,source_disjoint
+validation,3793,0.6364355391510678,source_disjoint
+test,2559,0.7116060961313013,chronological
+train,11939,0.5003769159896139,chronological
+validation,2558,0.6591086786551994,chronological

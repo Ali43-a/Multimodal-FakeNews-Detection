@@ -1,0 +1,275 @@
+{
+  "train": {
+    "rows": 564000,
+    "columns": 16,
+    "column_names": [
+      "author",
+      "clean_title",
+      "created_utc",
+      "domain",
+      "hasImage",
+      "id",
+      "image_url",
+      "linked_submission_id",
+      "num_comments",
+      "score",
+      "subreddit",
+      "title",
+      "upvote_ratio",
+      "2_way_label",
+      "3_way_label",
+      "6_way_label"
+    ],
+    "memory_mb": 191.2639331817627,
+    "missing_values": {
+      "linked_submission_id": 396143,
+      "domain": 167857,
+      "upvote_ratio": 167857,
+      "num_comments": 167857,
+      "author": 28710,
+      "image_url": 1534,
+      "created_utc": 0,
+      "clean_title": 0,
+      "hasImage": 0,
+      "id": 0,
+      "subreddit": 0,
+      "score": 0,
+      "title": 0,
+      "2_way_label": 0,
+      "3_way_label": 0,
+      "6_way_label": 0
+    },
+    "labels": {
+      "2_way_label": {
+        "0": 341919,
+        "1": 222081
+      },
+      "3_way_label": {
+        "0": 222081,
+        "1": 13848,
+        "2": 328071
+      },
+      "6_way_label": {
+        "0": 222081,
+        "1": 33481,
+        "2": 107221,
+        "3": 11784,
+        "4": 167857,
+        "5": 21576
+      }
+    },
+    "duplicates": {
+      "id": 0
+    },
+    "text": {
+      "clean_title": {
+        "missing": 0,
+        "empty": 0,
+        "mean_length": 41.926675531914896,
+        "median_length": 34.0,
+        "max_length": 2785,
+        "duplicates": 61395
+      },
+      "title": {
+        "missing": 0,
+        "empty": 0,
+        "mean_length": 46.222398936170215,
+        "median_length": 38.0,
+        "max_length": 2904,
+        "duplicates": 41493
+      }
+    },
+    "image": {
+      "image_url": {
+        "missing": 1534,
+        "unique": 547493
+      },
+      "hasImage": {
+        "missing": 0,
+        "unique": 1
+      }
+    }
+  },
+  "validation": {
+    "rows": 59342,
+    "columns": 16,
+    "column_names": [
+      "author",
+      "clean_title",
+      "created_utc",
+      "domain",
+      "hasImage",
+      "id",
+      "image_url",
+      "linked_submission_id",
+      "num_comments",
+      "score",
+      "subreddit",
+      "title",
+      "upvote_ratio",
+      "2_way_label",
+      "3_way_label",
+      "6_way_label"
+    ],
+    "memory_mb": 20.092646598815918,
+    "missing_values": {
+      "linked_submission_id": 41532,
+      "domain": 17810,
+      "upvote_ratio": 17810,
+      "num_comments": 17810,
+      "author": 3063,
+      "image_url": 173,
+      "created_utc": 0,
+      "clean_title": 0,
+      "hasImage": 0,
+      "id": 0,
+      "subreddit": 0,
+      "score": 0,
+      "title": 0,
+      "2_way_label": 0,
+      "3_way_label": 0,
+      "6_way_label": 0
+    },
+    "labels": {
+      "2_way_label": {
+        "0": 36022,
+        "1": 23320
+      },
+      "3_way_label": {
+        "0": 23320,
+        "1": 1365,
+        "2": 34657
+      },
+      "6_way_label": {
+        "0": 23320,
+        "1": 3521,
+        "2": 11277,
+        "3": 1238,
+        "4": 17810,
+        "5": 2176
+      }
+    },
+    "duplicates": {
+      "id": 0
+    },
+    "text": {
+      "clean_title": {
+        "missing": 0,
+        "empty": 0,
+        "mean_length": 41.729264264770315,
+        "median_length": 34.0,
+        "max_length": 526,
+        "duplicates": 3731
+      },
+      "title": {
+        "missing": 0,
+        "empty": 0,
+        "mean_length": 46.04883556334468,
+        "median_length": 38.0,
+        "max_length": 682,
+        "duplicates": 2694
+      }
+    },
+    "image": {
+      "image_url": {
+        "missing": 173,
+        "unique": 58387
+      },
+      "hasImage": {
+        "missing": 0,
+        "unique": 1
+      }
+    }
+  },
+  "test": {
+    "rows": 59319,
+    "columns": 16,
+    "column_names": [
+      "author",
+      "clean_title",
+      "created_utc",
+      "domain",
+      "hasImage",
+      "id",
+      "image_url",
+      "linked_submission_id",
+      "num_comments",
+      "score",
+      "subreddit",
+      "title",
+      "upvote_ratio",
+      "2_way_label",
+      "3_way_label",
+      "6_way_label"
+    ],
+    "memory_mb": 20.143988609313965,
+    "missing_values": {
+      "linked_submission_id": 41847,
+      "domain": 17472,
+      "upvote_ratio": 17472,
+      "num_comments": 17472,
+      "author": 3068,
+      "image_url": 156,
+      "created_utc": 0,
+      "clean_title": 0,
+      "hasImage": 0,
+      "id": 0,
+      "subreddit": 0,
+      "score": 0,
+      "title": 0,
+      "2_way_label": 0,
+      "3_way_label": 0,
+      "6_way_label": 0
+    },
+    "labels": {
+      "2_way_label": {
+        "0": 35812,
+        "1": 23507
+      },
+      "3_way_label": {
+        "0": 23507,
+        "1": 1492,
+        "2": 34320
+      },
+      "6_way_label": {
+        "0": 23507,
+        "1": 3514,
+        "2": 11297,
+        "3": 1224,
+        "4": 17472,
+        "5": 2305
+      }
+    },
+    "duplicates": {
+      "id": 0
+    },
+    "text": {
+      "clean_title": {
+        "missing": 0,
+        "empty": 0,
+        "mean_length": 41.993897402181425,
+        "median_length": 35.0,
+        "max_length": 450,
+        "duplicates": 3529
+      },
+      "title": {
+        "missing": 0,
+        "empty": 0,
+        "mean_length": 46.31264856116927,
+        "median_length": 38.0,
+        "max_length": 479,
+        "duplicates": 2593
+      }
+    },
+    "image": {
+      "image_url": {
+        "missing": 156,
+        "unique": 58339
+      },
+      "hasImage": {
+        "missing": 0,
+        "unique": 1
+      }
+    }
+  }
+}

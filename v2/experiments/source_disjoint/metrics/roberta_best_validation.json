@@ -1,0 +1,26 @@
+{
+  "best_epoch": 2,
+  "metrics": {
+    "accuracy": 0.41181123121539676,
+    "precision": 0.5778723404255319,
+    "recall": 0.28127589063794534,
+    "f1": 0.3783783783783784,
+    "macro_f1": 0.41010487595426304,
+    "recall_class_0": 0.640319071791153,
+    "recall_class_1": 0.28127589063794534,
+    "roc_auc": 0.4246274902325269,
+    "pr_auc": 0.5875772470725631,
+    "confusion_matrix": [
+      [
+        883,
+        496
+      ],
+      [
+        1735,
+        679
+      ]
+    ],
+    "loss": 1.5630951348473043
+  },
+  "checkpoint": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\checkpoints\\roberta"
+}

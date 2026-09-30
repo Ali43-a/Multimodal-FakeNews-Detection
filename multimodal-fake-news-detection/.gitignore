@@ -1,0 +1,48 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Datasets
+data/raw/
+data/interim/
+data/processed/
+data/splits/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Model caches
+.cache/
+huggingface/
+
+# Experiment tracking
+wandb/
+mlruns/
+
+# Temporary outputs
+results/temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+data/fakeddit-repo/

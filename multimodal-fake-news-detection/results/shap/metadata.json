@@ -1,0 +1,9 @@
+{
+  "method": "SHAP Partition Explainer",
+  "model": "fine-tuned roberta-base",
+  "cases": 32,
+  "max_length": 64,
+  "max_evals": 128,
+  "explained_output": "RoBERTa predicted class",
+  "interpretation": "Positive SHAP values support the predicted class; negative values oppose the predicted class."
+}

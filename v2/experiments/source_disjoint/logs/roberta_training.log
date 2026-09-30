@@ -1,0 +1,50 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 197/197 [00:00<00:00, 6285.82it/s]
+[transformers] RobertaForSequenceClassification LOAD REPORT from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+classifier.dense.bias      | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.out_proj.weight | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+RoBERTa epoch 1 step 100/658 loss=0.6926
+RoBERTa epoch 1 step 200/658 loss=0.6238
+RoBERTa epoch 1 step 300/658 loss=0.5856
+RoBERTa epoch 1 step 400/658 loss=0.5594
+RoBERTa epoch 1 step 500/658 loss=0.5377
+RoBERTa epoch 1 step 600/658 loss=0.5239
+{"epoch": 1, "train_loss": 0.5162342026784428, "validation_accuracy": 0.3664645399419984, "validation_precision": 0.5063001145475372, "validation_recall": 0.18309859154929578, "validation_f1": 0.26893824155765134, "validation_macro_f1": 0.35498551994142163, "validation_recall_class_0": 0.6874546773023931, "validation_recall_class_1": 0.18309859154929578, "validation_roc_auc": 0.37229633399080664, "validation_pr_auc": 0.5562875403247317, "validation_loss": 1.5271017331035197}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|##########| 1/1 [00:00<00:00,  2.19it/s]
+Writing model shards: 100%|##########| 1/1 [00:00<00:00,  2.19it/s]
+RoBERTa epoch 2 step 100/658 loss=0.3678
+RoBERTa epoch 2 step 200/658 loss=0.3593
+RoBERTa epoch 2 step 300/658 loss=0.3550
+RoBERTa epoch 2 step 400/658 loss=0.3522
+RoBERTa epoch 2 step 500/658 loss=0.3515
+RoBERTa epoch 2 step 600/658 loss=0.3497
+{"epoch": 2, "train_loss": 0.34782058634656543, "validation_accuracy": 0.41181123121539676, "validation_precision": 0.5778723404255319, "validation_recall": 0.28127589063794534, "validation_f1": 0.3783783783783784, "validation_macro_f1": 0.41010487595426304, "validation_recall_class_0": 0.640319071791153, "validation_recall_class_1": 0.28127589063794534, "validation_roc_auc": 0.4246274902325269, "validation_pr_auc": 0.5875772470725631, "validation_loss": 1.5630951348473043}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|##########| 1/1 [00:00<00:00,  2.47it/s]
+Writing model shards: 100%|##########| 1/1 [00:00<00:00,  2.47it/s]
+RoBERTa epoch 3 step 100/658 loss=0.2293
+RoBERTa epoch 3 step 200/658 loss=0.2347
+RoBERTa epoch 3 step 300/658 loss=0.2395
+RoBERTa epoch 3 step 400/658 loss=0.2436
+RoBERTa epoch 3 step 500/658 loss=0.2443
+RoBERTa epoch 3 step 600/658 loss=0.2444
+{"epoch": 3, "train_loss": 0.24318278863980777, "validation_accuracy": 0.4012654890587925, "validation_precision": 0.5641255605381166, "validation_recall": 0.2605633802816901, "validation_f1": 0.356474922074242, "validation_macro_f1": 0.3983508453112151, "validation_recall_class_0": 0.6475707034082668, "validation_recall_class_1": 0.2605633802816901, "validation_roc_auc": 0.4583520832369553, "validation_pr_auc": 0.5888042266682274, "validation_loss": 1.858760773133831}
+Best validation macro F1: 0.410105

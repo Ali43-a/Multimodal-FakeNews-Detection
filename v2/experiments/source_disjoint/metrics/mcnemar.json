@@ -1,0 +1,8 @@
+{
+  "both_correct": 1458,
+  "both_wrong": 241,
+  "roberta_correct_fusion_wrong": 624,
+  "fusion_correct_roberta_wrong": 416,
+  "discordant": 1040,
+  "exact_p_value": 1.1965037074810027e-10
+}

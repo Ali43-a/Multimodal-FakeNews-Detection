@@ -1,0 +1,49 @@
+{
+  "train": {
+    "rows": 13129,
+    "unique_ids": 13129,
+    "label_counts": {
+      "0": 5854,
+      "1": 7275
+    },
+    "label_proportions": {
+      "0": 0.4458831594180821,
+      "1": 0.5541168405819179
+    },
+    "sample_id_sha256": "18b6b156d6224acb89bbf5ff287a4b38f707e87acb8781672dab1d6b76b339d7",
+    "missing_image_paths": 0
+  },
+  "validation": {
+    "rows": 1962,
+    "unique_ids": 1962,
+    "label_counts": {
+      "0": 860,
+      "1": 1102
+    },
+    "label_proportions": {
+      "0": 0.4383282364933741,
+      "1": 0.5616717635066258
+    },
+    "sample_id_sha256": "7ef8767d2f12e7f062686fb81dcdf5116a3953af981a4cc9e8af2320b5049daf",
+    "missing_image_paths": 0
+  },
+  "test": {
+    "rows": 1965,
+    "unique_ids": 1965,
+    "label_counts": {
+      "0": 861,
+      "1": 1104
+    },
+    "label_proportions": {
+      "0": 0.4381679389312977,
+      "1": 0.5618320610687023
+    },
+    "sample_id_sha256": "a7fa201ff3c95fc0004198e5870f7c5c773ae677c540a7b82c4c936db278f34a",
+    "missing_image_paths": 0
+  },
+  "cross_split_id_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "accuracy": 0.739440203562341,
+  "precision": 0.7334384858044164,
+  "recall": 0.842391304347826,
+  "f1": 0.7841483979763912,
+  "f1_macro": 0.7277609769086064,
+  "roc_auc": 0.7951599294719656,
+  "pr_auc": 0.796432028894567,
+  "loss": 0.5754654643035704,
+  "confusion_matrix": [
+    [
+      523,
+      338
+    ],
+    [
+      174,
+      930
+    ]
+  ],
+  "best_validation_macro_f1": 0.7407832392517169,
+  "model": "resnet50",
+  "weights": "IMAGENET1K_V2",
+  "image_size": 224,
+  "seed": 42,
+  "batch_size": 32,
+  "learning_rate": 0.0001
+}

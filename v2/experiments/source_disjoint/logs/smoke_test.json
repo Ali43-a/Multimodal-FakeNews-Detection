@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+  "text_batch_shape": [
+    8,
+    2
+  ],
+  "image_batch_shape": [
+    4,
+    2
+  ],
+  "labels_aligned": true,
+  "output_root": "F:\\data sci\\project\\v2\\experiments\\source_disjoint"
+}

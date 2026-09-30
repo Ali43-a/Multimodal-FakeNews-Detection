@@ -1,0 +1,20 @@
+{
+  "test_samples": 1965,
+  "groups": {
+    "both_correct": 1516,
+    "both_wrong": 223,
+    "fusion_only_correct": 133,
+    "roberta_only_correct": 93
+  },
+  "fusion_recovered": 133,
+  "fusion_lost": 93,
+  "resnet_correct_among_recovered": 133,
+  "resnet_correct_among_recovered_rate": 1.0,
+  "roberta_resnet_agreement": 0.705852417302799,
+  "modality_disagreement_samples": 578,
+  "when_modalities_disagree": {
+    "roberta_correct": 367,
+    "resnet_correct": 211,
+    "fusion_correct": 407
+  }
+}

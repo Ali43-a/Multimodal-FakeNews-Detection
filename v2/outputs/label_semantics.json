@@ -1,0 +1,28 @@
+{
+  "binary_class_1": "true/real content",
+  "binary_class_0": "fake or misleading content (six-way classes 1-5)",
+  "verification": [
+    {
+      "split": "train",
+      "n": 564000,
+      "consistent_n": 564000,
+      "inconsistent_n": 0,
+      "consistent_pct": 100.0
+    },
+    {
+      "split": "validation",
+      "n": 59342,
+      "consistent_n": 59342,
+      "inconsistent_n": 0,
+      "consistent_pct": 100.0
+    },
+    {
+      "split": "test",
+      "n": 59319,
+      "consistent_n": 59319,
+      "inconsistent_n": 0,
+      "consistent_pct": 100.0
+    }
+  ],
+  "limitation": "This verifies dataset encoding, not the factual correctness of every distant-supervision label."
+}

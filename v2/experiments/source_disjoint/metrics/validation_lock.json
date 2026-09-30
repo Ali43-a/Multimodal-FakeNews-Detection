@@ -1,0 +1,16 @@
+{
+  "locked_utc": "2026-09-15T11:28:39.694083+00:00",
+  "selection_partition": "validation",
+  "paired_validation_samples": 3793,
+  "selection_metric": "macro_f1",
+  "selected_alpha_text": 0.0,
+  "selected_alpha_image": 1.0,
+  "validation_macro_f1": 0.6158459572874317,
+  "classification_threshold": 0.5,
+  "tied_alpha_values": [
+    0.0
+  ],
+  "tie_break": "closest to 0.50, then lower alpha",
+  "roberta_checkpoint": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\checkpoints\\roberta",
+  "resnet_checkpoint": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\checkpoints\\resnet50\\best_model.pt"
+}

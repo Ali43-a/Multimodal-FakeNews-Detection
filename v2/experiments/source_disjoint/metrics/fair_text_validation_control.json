@@ -1,0 +1,6 @@
+{
+  "selected_threshold": 0.1,
+  "validation_macro_f1": 0.45733629750573884,
+  "platt_coefficient": -0.5857675446016508,
+  "platt_intercept": 0.7622844710235499
+}

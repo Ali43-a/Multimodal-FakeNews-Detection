@@ -1,0 +1,21 @@
+{
+  "purpose": "unseen final evaluation holdout",
+  "source": "data\\processed\\fakeddit\\test.parquet",
+  "candidate_seed": 2026,
+  "candidate_size": 10000,
+  "full_public_test_rows": 59319,
+  "previous_development_rows": 26000,
+  "overlap_counts": {
+    "id": 3000,
+    "exact_text": 6364,
+    "image_url": 3825,
+    "union_excluded": 7164
+  },
+  "eligible_pool_rows": 52155,
+  "candidate_label_counts": {
+    "0": 5839,
+    "1": 4161
+  },
+  "model_predictions_used": false,
+  "test_metrics_used_for_selection": false
+}

@@ -1,0 +1,22 @@
+# Source and documentation use LF; archived evidence must retain exact bytes.
+* -text
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.ipynb -text
+*.csv -text
+*.json -text
+*.parquet -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pptx binary
+
+# These trees contain fingerprinted records, including Markdown reports.
+multimodal-fake-news-detection/results/** -text
+v2/outputs/** -text
+v2/manifests/** -text
+v2/experiments/source_disjoint/** -text

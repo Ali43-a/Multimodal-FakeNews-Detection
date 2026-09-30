@@ -1,0 +1,5 @@
+id,comparison_group,label,predicted_class,token,shap_value,absolute_shap
+8arzp9,roberta_only_correct,0,0,,3.129243850708008e-07,3.129243850708008e-07
+8arzp9,roberta_only_correct,0,0,water,-0.06295647472143173,0.06295647472143173
+8arzp9,roberta_only_correct,0,0,fall,-0.12276347726583481,0.12276347726583481
+8arzp9,roberta_only_correct,0,0,,-8.940696716308594e-08,8.940696716308594e-08

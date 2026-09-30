@@ -1,0 +1,31 @@
+{
+  "all_multimodal_cases": 32,
+  "selected_paired_cases": 8,
+  "shap_cases": 32,
+  "gradcam_cases": 32,
+  "case_columns": [
+    "id",
+    "comparison_group",
+    "label",
+    "prediction_roberta",
+    "prediction_resnet",
+    "prediction_fusion",
+    "probability_roberta",
+    "probability_resnet",
+    "probability_fused",
+    "text",
+    "image_path",
+    "gradcam_path",
+    "supportive_tokens",
+    "opposing_tokens",
+    "fusion_probability_shift",
+    "absolute_fusion_shift",
+    "roberta_confidence",
+    "resnet_confidence",
+    "mean_model_confidence"
+  ],
+  "all_32_label_counts": {
+    "1": 20,
+    "0": 12
+  }
+}

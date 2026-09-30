@@ -1,0 +1,5 @@
+item,observed,expected,status,draft_action
+public test size,59319,59319,PASS,"Use 59,319 consistently."
+missing text change sign,-0.09055566126513415,negative,PASS,"Report -0.0906, not +0.0906."
+32-case table exists,32,32,PASS,Describe the full 32-case analysis and distinguish it from the four illustrated cases.
+paired SHAP and Grad-CAM coverage,"SHAP=32, Grad-CAM=32",>=32 each,PASS,Reconcile claimed and generated explanation counts.

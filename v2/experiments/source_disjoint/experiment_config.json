@@ -1,0 +1,103 @@
+{
+  "experiment": "source_disjoint",
+  "created_utc": "2026-09-15T11:18:00.664633+00:00",
+  "seed": 42,
+  "project_root": "F:\\data sci\\project\\multimodal-fake-news-detection",
+  "source_manifest": "F:\\data sci\\project\\v2\\manifests\\source_disjoint.parquet",
+  "isolated_manifest": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\manifests\\source_disjoint.parquet",
+  "manifest_sha256": "f7feb3531ef6decd1ea95af9dce8eeb7dbf7d2f7670b8db68c614a721308cc52",
+  "split_counts": {
+    "train": 10524,
+    "validation": 3793,
+    "test": 2739
+  },
+  "positive_class": 1,
+  "classification_threshold": 0.5,
+  "roberta": {
+    "base_model": "roberta-base",
+    "pretrained_base_weights": true,
+    "max_length": 64,
+    "batch_size": 16,
+    "optimizer": "AdamW",
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "gradient_clipping": 1.0,
+    "warmup_fraction": 0.1,
+    "max_epochs": 3,
+    "selection_metric": "validation_macro_f1",
+    "checkpoint": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\checkpoints\\roberta"
+  },
+  "resnet50": {
+    "base_model": "resnet50",
+    "weights": "IMAGENET1K_V2",
+    "fine_tune": "full network",
+    "input_size": [
+      224,
+      224
+    ],
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "max_epochs": 3,
+    "selection_metric": "validation_macro_f1",
+    "checkpoint": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\checkpoints\\resnet50\\best_model.pt"
+  },
+  "fusion": {
+    "formula": "alpha * p_text + (1 - alpha) * p_image",
+    "alpha_search": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "selection_metric": "validation_macro_f1",
+    "tie_break": "closest to 0.50, then lower alpha",
+    "selected_alpha": 0.0,
+    "locked_utc": "2026-09-15T11:28:39.694083+00:00"
+  },
+  "calibration": {
+    "ece_bins": 10,
+    "convention": "confidence bins from 0.5 to 1.0"
+  },
+  "bootstrap": {
+    "iterations": 5000,
+    "seed": 42,
+    "paired": true
+  },
+  "packages": {
+    "python": "3.12.3",
+    "torch": "2.13.0+cu126",
+    "torchvision": "0.28.0+cu126",
+    "transformers": "5.16.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.2",
+    "scikit_learn": "1.9.0",
+    "scipy": "1.18.1"
+  },
+  "hardware": {
+    "cuda_available": true,
+    "cuda_version": "12.6",
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER"
+  },
+  "test_evaluated_utc": "2026-09-15T11:33:30.919858+00:00",
+  "test_predictions": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\predictions\\test_predictions.csv",
+  "report": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\reports\\source_disjoint_results.md"
+}

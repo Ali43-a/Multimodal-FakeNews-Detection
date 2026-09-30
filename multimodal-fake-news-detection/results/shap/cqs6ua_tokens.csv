@@ -1,0 +1,8 @@
+id,comparison_group,label,predicted_class,token,shap_value,absolute_shap
+cqs6ua,fusion_only_correct,1,0,,0.0,0.0
+cqs6ua,fusion_only_correct,1,0,check ,0.0023494064807891846,0.0023494064807891846
+cqs6ua,fusion_only_correct,1,0,out ,0.0009996071457862854,0.0009996071457862854
+cqs6ua,fusion_only_correct,1,0,this ,-0.009793080389499664,0.009793080389499664
+cqs6ua,fusion_only_correct,1,0,job ,-0.002738088369369507,0.002738088369369507
+cqs6ua,fusion_only_correct,1,0,title,-0.003971874713897705,0.003971874713897705
+cqs6ua,fusion_only_correct,1,0,,0.0,0.0

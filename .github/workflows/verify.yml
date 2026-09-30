@@ -1,0 +1,17 @@
+name: Verify submission
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify saved scientific evidence
+        run: python tools/verify_saved_results.py
+      - name: Verify consolidated notebook
+        run: python tools/verify_notebook.py

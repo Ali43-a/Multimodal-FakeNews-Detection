@@ -1,0 +1,4 @@
+split,manifest_samples,retained_samples,removed_samples,removed_class_0,removed_class_1,class_0,class_1,class_1_rate,sources
+train,10524,10524,0,0,0,4955,5569,0.5291714177118966,17
+validation,3793,3793,0,0,0,1379,2414,0.6364355391510678,2
+test,2739,2739,0,0,0,1241,1498,0.5469149324571011,3

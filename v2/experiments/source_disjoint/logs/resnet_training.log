@@ -1,0 +1,30 @@
+F:\data sci\project\multimodal-fake-news-detection\.venv\Lib\site-packages\PIL\Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+ResNet epoch 1 step 50/329 loss=0.6490
+ResNet epoch 1 step 100/329 loss=0.6231
+ResNet epoch 1 step 150/329 loss=0.6068
+ResNet epoch 1 step 200/329 loss=0.5912
+F:\data sci\project\multimodal-fake-news-detection\.venv\Lib\site-packages\PIL\Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+ResNet epoch 1 step 250/329 loss=0.5860
+ResNet epoch 1 step 300/329 loss=0.5802
+F:\data sci\project\multimodal-fake-news-detection\.venv\Lib\site-packages\PIL\Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+F:\data sci\project\multimodal-fake-news-detection\.venv\Lib\site-packages\PIL\Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{"epoch": 1, "train_loss": 0.5744275153589103, "validation_accuracy": 0.6385446875823886, "validation_precision": 0.7266405910473707, "validation_recall": 0.6926263463131731, "validation_f1": 0.7092258748674444, "validation_macro_f1": 0.6158459572874317, "validation_recall_class_0": 0.5438723712835388, "validation_recall_class_1": 0.6926263463131731, "validation_roc_auc": 0.6524087793407203, "validation_pr_auc": 0.7173178340782485, "validation_loss": 0.6749556350106952}
+ResNet epoch 2 step 50/329 loss=0.3499
+ResNet epoch 2 step 100/329 loss=0.3409
+ResNet epoch 2 step 150/329 loss=0.3341
+ResNet epoch 2 step 200/329 loss=0.3343
+ResNet epoch 2 step 250/329 loss=0.3372
+ResNet epoch 2 step 300/329 loss=0.3382
+{"epoch": 2, "train_loss": 0.33951780095832323, "validation_accuracy": 0.5692064329027156, "validation_precision": 0.7249134948096886, "validation_recall": 0.5207125103562552, "validation_f1": 0.6060752169720347, "validation_macro_f1": 0.5653994467640859, "validation_recall_class_0": 0.6540971718636693, "validation_recall_class_1": 0.5207125103562552, "validation_roc_auc": 0.6362702942047629, "validation_pr_auc": 0.720206353049083, "validation_loss": 0.9119888509021086}
+ResNet epoch 3 step 50/329 loss=0.1325
+ResNet epoch 3 step 100/329 loss=0.1354
+ResNet epoch 3 step 150/329 loss=0.1405
+ResNet epoch 3 step 200/329 loss=0.1389
+ResNet epoch 3 step 250/329 loss=0.1416
+ResNet epoch 3 step 300/329 loss=0.1430
+{"epoch": 3, "train_loss": 0.14455192874675463, "validation_accuracy": 0.5789612443975745, "validation_precision": 0.7199784598815293, "validation_recall": 0.5538525269262634, "validation_f1": 0.6260828845703582, "validation_macro_f1": 0.5721666308221324, "validation_recall_class_0": 0.6229151559100797, "validation_recall_class_1": 0.5538525269262634, "validation_roc_auc": 0.6315915799364715, "validation_pr_auc": 0.7281809625202671, "validation_loss": 1.3965853382559383}
+Best validation macro F1: 0.615846

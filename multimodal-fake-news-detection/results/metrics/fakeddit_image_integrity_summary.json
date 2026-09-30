@@ -1,0 +1,29 @@
+{
+  "train": {
+    "manifest_rows": 20000,
+    "valid_images": 18835,
+    "missing_files": 1165,
+    "invalid_images": 0,
+    "files_34641_bytes": 5706,
+    "duplicate_hash_groups": 35,
+    "files_in_duplicate_hash_groups": 5803
+  },
+  "validation": {
+    "manifest_rows": 3000,
+    "valid_images": 2832,
+    "missing_files": 168,
+    "invalid_images": 0,
+    "files_34641_bytes": 870,
+    "duplicate_hash_groups": 5,
+    "files_in_duplicate_hash_groups": 878
+  },
+  "test": {
+    "manifest_rows": 3000,
+    "valid_images": 2818,
+    "missing_files": 182,
+    "invalid_images": 0,
+    "files_34641_bytes": 853,
+    "duplicate_hash_groups": 2,
+    "files_in_duplicate_hash_groups": 856
+  }
+}

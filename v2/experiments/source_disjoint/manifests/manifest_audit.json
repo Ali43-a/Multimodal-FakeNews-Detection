@@ -1,0 +1,66 @@
+{
+  "source_manifest": "F:\\data sci\\project\\v2\\manifests\\source_disjoint.parquet",
+  "isolated_manifest": "F:\\data sci\\project\\v2\\experiments\\source_disjoint\\manifests\\source_disjoint.parquet",
+  "sha256": "f7feb3531ef6decd1ea95af9dce8eeb7dbf7d2f7670b8db68c614a721308cc52",
+  "schema": {
+    "id": "str",
+    "label": "int8",
+    "text": "str",
+    "image_path": "str",
+    "subreddit": "str",
+    "domain": "str",
+    "created_utc": "float64",
+    "v2_split": "str"
+  },
+  "rows": 17056,
+  "duplicate_ids": 0,
+  "blank_text": 0,
+  "source_overlap": {
+    "test__train": [],
+    "test__validation": [],
+    "train__validation": []
+  },
+  "unreadable_images": [],
+  "known_placeholder_images": [],
+  "splits": [
+    {
+      "split": "train",
+      "manifest_samples": 10524,
+      "retained_samples": 10524,
+      "removed_samples": 0,
+      "removed_class_0": 0,
+      "removed_class_1": 0,
+      "class_0": 4955,
+      "class_1": 5569,
+      "class_1_rate": 0.5291714177118966,
+      "sources": 17
+    },
+    {
+      "split": "validation",
+      "manifest_samples": 3793,
+      "retained_samples": 3793,
+      "removed_samples": 0,
+      "removed_class_0": 0,
+      "removed_class_1": 0,
+      "class_0": 1379,
+      "class_1": 2414,
+      "class_1_rate": 0.6364355391510678,
+      "sources": 2
+    },
+    {
+      "split": "test",
+      "manifest_samples": 2739,
+      "retained_samples": 2739,
+      "removed_samples": 0,
+      "removed_class_0": 0,
+      "removed_class_1": 0,
+      "class_0": 1241,
+      "class_1": 1498,
+      "class_1_rate": 0.5469149324571011,
+      "sources": 3
+    }
+  ],
+  "positive_class": "1 (true)",
+  "negative_class": "0 (fake or misleading)",
+  "note": "The manifest was constructed from the existing cleaned multimodal pool, so its manifest and retained counts are equal."
+}

@@ -1,0 +1,40 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+.idea/
+.vscode/
+wandb/
+mlruns/
+# Large external assets and new training runs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+multimodal-fake-news-detection/data/
+runs/
+# Local dissertation drafts and temporary files
+doc/
+*.docx
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Notebook execution and local exports
+*.executed.ipynb
+.jupyter/
+*.zip
+*.mp4
+*.mov

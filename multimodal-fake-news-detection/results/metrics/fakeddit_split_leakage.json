@@ -1,0 +1,20 @@
+{
+  "train_vs_validation": {
+    "id_overlap": 0,
+    "clean_title_overlap": 4647,
+    "image_url_overlap": 1515,
+    "text_image_pair_overlap": 466
+  },
+  "train_vs_test": {
+    "id_overlap": 0,
+    "clean_title_overlap": 4754,
+    "image_url_overlap": 1500,
+    "text_image_pair_overlap": 476
+  },
+  "validation_vs_test": {
+    "id_overlap": 0,
+    "clean_title_overlap": 1380,
+    "image_url_overlap": 298,
+    "text_image_pair_overlap": 59
+  }
+}

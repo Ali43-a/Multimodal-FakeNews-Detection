@@ -1,0 +1,4 @@
+split,n,consistent_n,inconsistent_n,consistent_pct
+train,564000,564000,0,100.0
+validation,59342,59342,0,100.0
+test,59319,59319,0,100.0
